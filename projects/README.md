@@ -18,7 +18,7 @@ When adding a new project, create a folder with the following structure:
 project-name/
 ├── README.md              # Project documentation
 ├── src/                   # Source code files
-│   └── main.py/index.js  # Main application file
+│   └── main.{py,js}      # Main application file (main.py or index.js)
 ├── docs/                  # Additional documentation
 ├── tests/                 # Test files (optional)
 ├── assets/                # Images, data files, etc.
