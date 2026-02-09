@@ -133,7 +133,7 @@ def show_graph():
 # ---------------- GUI ----------------
 
 root = tk.Tk()
-root.title("Ishu's BMI Tracker") # Personal touch for you, Ishu!
+root.title("Prathamesh's BMI Tracker")
 root.geometry("420x400")
 
 tk.Label(root, text="Smart BMI Tracker", font=("Arial", 16, "bold")).pack(pady=10)
@@ -163,3 +163,4 @@ def on_closing():
 
 root.protocol("WM_DELETE_WINDOW", on_closing)
 root.mainloop()
+
